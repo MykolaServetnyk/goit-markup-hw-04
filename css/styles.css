@@ -302,6 +302,7 @@ img {
     text-align: left;
 }
 
+
 .advantages-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -322,6 +323,7 @@ img {
     align-items: center;
     background-color: #f5f4fa;
     margin-bottom: 30px;
+    border-radius: 4px;
 }
 
 
@@ -444,6 +446,10 @@ img {
     fill: currentColor;
 }
 
+.social-media-item:not(:last-child) {
+
+    margin-right: 10px;
+}
 
 .project-descr {
     padding: 20px 24px;
@@ -589,10 +595,6 @@ img {
     margin-bottom: 0;
 }
 
-/* .footer-link:hover,
-.footer-link:focus {
-    color: var(--active-text-color)
-} */
 
 .footer-title {
     font-family: "Roboto", sans-serif;
